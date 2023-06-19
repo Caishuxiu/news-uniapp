@@ -1,0 +1,51 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "每日资讯"
+			}
+		}
+	    ,{
+            "path" : "pages/bookmarks/bookmarks",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "书签",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资讯详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#f1f3f4"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color":"#666",
+		"selectedColor": "#3a87c0",
+		// "backgroundColor": "black",
+		// "borderStyle": "white",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-sel.png"
+			},{
+				"text": "书签",
+				"pagePath": "pages/bookmarks/bookmarks",
+				"iconPath": "static/images/bookmarks.png",
+				"selectedIconPath": "static/images/bookmarks-sel.png"
+			}
+		]
+	}
+}

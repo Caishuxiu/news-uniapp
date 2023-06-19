@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/bookmarks/bookmarks",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#f1f3f4"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#3a87c0",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-sel.png"
+      },
+      {
+        "text": "书签",
+        "pagePath": "pages/bookmarks/bookmarks",
+        "iconPath": "static/images/bookmarks.png",
+        "selectedIconPath": "static/images/bookmarks-sel.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

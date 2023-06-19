@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "书签",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "newsbox": "/components/newsbox/newsbox"
+  }
+}
